@@ -1,0 +1,12 @@
+#heading{
+    color: pink;
+}
+.my-element{
+       color:white;
+       background-color: black; 
+       .el{
+        color:purple;
+        background-color: cadetblue;
+       }
+    }
+    /* !important mean saari priorities gai tel lene ab yeh hi hoga*/ 

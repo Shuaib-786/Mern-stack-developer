@@ -1,0 +1,51 @@
+.loader{
+    width: 1200px;
+    height: 200px;
+    margin: 100px auto;
+    border: 3px solid black;
+}
+.loading{
+    height: 100%;
+    width: 0%;
+    background-color: orange;
+    transition-duration: 3s;
+    animation-name:update-loader-width ;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+/*.loader:hover .loading{
+    width: 100%;
+}
+
+@keyframes update-loader-width{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}*/
+
+@keyframes update-loader-width{
+    0%{
+        width: 0%;
+        background-color: red;
+    }
+    50%{
+        width: 40%;
+        background-color: lightcoral;
+    }
+    70%{
+        width: 40%;
+        background-color: yellow;
+    }
+    80%{
+        width: 70%;
+        background-color: orange;
+    }
+    100%{
+        width: 100%;
+        background-color: green;
+    }
+}

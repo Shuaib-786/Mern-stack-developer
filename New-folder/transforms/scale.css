@@ -1,0 +1,21 @@
+*{
+    font-size: 40px;
+}
+.div{
+    width: 400px;
+    height: 500px;
+    background-color: orange;
+    margin: 150px auto;
+    border: 3px solid black;
+    transform: scaleX(3);
+    z-index: 1;
+    position: relative;
+}
+.div1{
+    width: 100px;
+    height: 500px;
+    background-color: rgb(68, 49, 14);
+    margin: 150px auto;
+    border: 3px solid rgb(0, 0, 0);
+    transform: scaleY(3);
+}

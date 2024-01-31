@@ -1,0 +1,30 @@
+*{
+    font-size: 40px;
+}
+.div{
+    width: 400px;
+    height: 500px;
+    background-color: orange;
+    margin: auto;
+    border: 3px solid black;
+    transition: ease-in-out 10s;
+    /*transition-duration: 2s;*/
+   /* transition-delay: 3s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);*/
+}/*
+.div1{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(100, 76, 31);
+    margin: auto;
+    border: 3px solid black;
+    transform: rotateZ(55deg);
+    
+}
+*/
+.div:hover{
+    transform: rotateZ(155deg);
+    border-radius: 50%;
+    background-color: rgb(255, 222, 144);
+
+}

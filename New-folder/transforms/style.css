@@ -1,0 +1,21 @@
+*{
+    font-size: 40px;
+}
+.div{
+    width: 400px;
+    height: 500px;
+    background-color: orange;
+    margin: auto;
+    border: 3px solid black;
+
+    transform: rotateZ(45deg);
+}
+.div1{
+    width: 400px;
+    height: 500px;
+    background-color: orange;
+    margin: auto;
+    border: 3px solid black;
+
+    transform: rotateX(45deg);
+}

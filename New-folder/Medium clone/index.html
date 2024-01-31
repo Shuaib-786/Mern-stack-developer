@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium Clone FrontEnd</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 1200px;
+            margin: auto;
+            height: 500px;
+            /* border: 1px solid black; */
+            margin-top: 90px;
+            font-family: sans-serif;
+        }
+
+        .yellow-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 550px;
+            border-bottom: 1px solid black;
+            width: 100%;
+            background-color: #FFC017;
+            z-index: -1;
+        }
+
+        .separation-line{
+            margin-top: 50px;
+            width: 100vw;
+            position: relative;
+            
+            right: 35px;
+            border: 1px solid #ccc;
+        }
+    </style>
+    <!-- Including Navbar CSS -->
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <!-- CAROUSEL CSS -->
+    <link rel="stylesheet" href="css/carousel.css">
+
+    <link rel="stylesheet" href="css/main-article.css">
+
+    <!-- Trending Article CSS -->
+    <link rel="stylesheet" href="css/trending-articles.css">k
+</head>
+
+<body>
+
+    <!-- YELLOW BOX CONTAINER OF CAROUSEL STARTS -->
+    <div class="yellow-container"></div>
+    <!-- YELLOW BOX CONTAINER OF CAROUSEL ENDS -->
+
+
+    <!-- NAVBAR STARTS -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-logo">
+            <div class="nav-image"></div>
+        </div>
+        <div class="nav-links">
+            <a class="nav-item" href="#">Our Story</a>
+            <a class="nav-item" href="#">Membership</a>
+            <a class="nav-item" href="#">Write</a>
+            <a class="nav-item" href="#">Sign in</a>
+            <button class="get-started">
+                <span>Get Started</span>
+                <div class="circle-1"></div>
+                <div class="circle-2"></div>
+            </button>
+        </div>
+    </nav>
+    <!-- NAVBAR ENDS -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- CONTAINER STARTS  -------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="container">
+
+
+
+
+
+
+
+        <!-- CAROUSEL STARTS -->
+        <div class="carousel">
+            <h1 class="carousel-heading">Stay curious.</h1>
+            <div class="carousel-text">Discover stories, thinking, and expertise from writers on any topic.</div>
+            <button class="carousel-button">Start Reading</button>
+        </div>
+        <!-- CAROUSEL ENDS -->
+
+
+
+        <div class="trending-articles">
+            <div class="trending-heading">
+                <img
+                    src="https://media.istockphoto.com/id/1459674281/vector/round-uptrend-arrow-icon-vector.jpg?b=1&s=170x170&k=20&c=ViCSKPNtyVaLhNa0t5yW67nKBor0SmiDOk8IQJdP_6Y=">
+                <div class="trending-heading-text">Trending on Medium</div>
+            </div>
+            <div class="articles-list">
+                <div class="article article-1">
+                    <div class="article-no">01</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fill:40:40/1*CJe3891yB1A1mzMdqemkdg.jpeg">
+                            <div class="article-author-detail">
+                            <span class="author">
+                                Thi-Lam-Thuy LE
+                                <div class="about-author">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, officiis.
+                                </div>
+                            </span> in <span>Towards Data Science</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's What happened?
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article article-2">
+                    <div class="article-no">02</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fill:40:40/1*XVtdl45m8YaYrPI4buJ5yQ.png">
+                            <div class="article-author-detail"><span>Thi-Lam-Thuy LE</span> in <span>Towards Data Science</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's What happened?
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article article-3">
+                    <div class="article-no">03</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://media.istockphoto.com/id/1459674281/vector/round-uptrend-arrow-icon-vector.jpg?b=1&s=170x170&k=20&c=ViCSKPNtyVaLhNa0t5yW67nKBor0SmiDOk8IQJdP_6Y=">
+                            <div class="article-author-detail"><span>Thi-Lam-Thuy LE</span> in <span>Towards Data Science</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's What happened?
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article article-4">
+                    <div class="article-no">04</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://media.istockphoto.com/id/1459674281/vector/round-uptrend-arrow-icon-vector.jpg?b=1&s=170x170&k=20&c=ViCSKPNtyVaLhNa0t5yW67nKBor0SmiDOk8IQJdP_6Y=">
+                            <div class="article-author-detail"><span>Thi-Lam-Thuy LE</span> in <span>Towards Data Science</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's What happened?
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article article-5">
+                    <div class="article-no">05</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://media.istockphoto.com/id/1459674281/vector/round-uptrend-arrow-icon-vector.jpg?b=1&s=170x170&k=20&c=ViCSKPNtyVaLhNa0t5yW67nKBor0SmiDOk8IQJdP_6Y=">
+                            <div class="article-author-detail"><span>Thi-Lam-Thuy LE</span> in <span>Towards Data Science</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's What happened?
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article article-6">
+                    <div class="article-no">06</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://media.istockphoto.com/id/1459674281/vector/round-uptrend-arrow-icon-vector.jpg?b=1&s=170x170&k=20&c=ViCSKPNtyVaLhNa0t5yW67nKBor0SmiDOk8IQJdP_6Y=">
+                            <div class="article-author-detail"><span>Thi-Lam-Thuy LE</span> in <span>Towards Data Science</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's What happened? Adding more text here
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- trending article start here-->
+        <div class="trending-articles">
+
+        </div>
+
+        <!--  trending articles end here -->
+        
+        <div class="separation-line"></div>
+
+        <!-- starting main article-->
+        <div class="main-articles">
+            <div class="articles-container">
+                <div class="div1">
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fill:30:30/1*1hJR6BEyB4fL0rtfGTuPgw.jpeg">
+                            <div class="article-author-detail">
+                            <span class="author">
+                                Ryan Chin
+                                <div class="about-author">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, officiis.
+                                </div>
+                            </span> in <span>In Living Color</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                           Looking at a Familiar Place From a New Angle
+                        </div>
+                        <div>A fly discovers the wonders of a river's surface</div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 24&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">6 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="div1">
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fill:30:30/1*rt1mE2Q0rmKsUcJX2ewFoA.png">
+                            <div class="article-author-detail">
+                            <span class="author">
+                                Sivan Hermon 
+                                <div class="about-author">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, officiis.
+                                </div>
+                            </span> in <span>Code Like A Girl</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            Starting with No: Why Most People Shouldn't Be Managers
+                            
+                        </div>
+                        <div>why the desired title won't give you what you are looking for</div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 23&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">5 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="div1">
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fill:30:30/1*RsfhVK8tQW9TPv-Q_2YtRw.png">
+                            <div class="article-author-detail">
+                            <span class="author">
+                                Dan Canon
+                                <div class="about-author">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, officiis.
+                                </div>
+                            </span> in <span>I Taught the Law</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            The Trump Exception to the Constitution
+                        </div>
+                        <div>
+                            The First Amendent is not What Enabling Trunp. it's the Courts 
+                            
+                        </div>
+
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 5&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">10 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="div1">
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fill:30:30/1*4B1_1F-3oPiNlS6T_aBwWA.png">
+                            <div class="article-author-detail">
+                            <span class="author">
+                                Michelle Wiles 
+                                <div class="about-author">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, officiis.
+                                </div>
+                            </span> in <span>Embedded Brand Strategy</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            Stanley hype and Samba cringe: Why products fall in and out of style
+                        </div>
+                        <div>Do I really want the Stanley cup? Or do I want it because everyone else wants it?</div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="div1">
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fill:30:30/1*YbpU49c7mglIVxhoKXuqVw.png">
+                            <div class="article-author-detail">
+                            <span class="author">
+                                Prof Bill Buchanan OBE
+                                <div class="about-author">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, officiis.
+                                </div>
+                            </span> in <span>ASecuritySite:When Bob Met Alice</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                           Is Barbie's Password 'uiff;rnl'?
+                        </div>
+                        <div>Can't wait ot crack the Barbie cipher? Try here</div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 15&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">13 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="div1">
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fill:30:30/1*mDhF9X4VO0rCrJvWFatyxg.png">
+                            <div class="article-author-detail">
+                            <span class="author">
+                                lda Persson 
+                                <div class="about-author">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, officiis.
+                                </div>
+                            </span> in <span>UX Collective</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            If you want to be creative, you can't be certain
+                            
+                        </div>
+                        <div>Embracing ambiguity as a superpower</div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="div1">
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fill:30:30/1*xQ2Vj5As89JnmL6H50JYKg.png">
+                            <div class="article-author-detail">
+                            <span class="author">
+                                Jack Shepherd 
+                                <div class="about-author">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, officiis.
+                                </div>
+                            </span> in <span>Cellar Door</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            The Astonishiing Origins of 6 common Compound Words
+                        </div>
+                        <div>The "cob" in "Cobweb," the "Hodge" in "Hodgepodge," and more lovely old oddities that still clingto life in compounds.</div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 26&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">4 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="div1">
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fill:30:30/1*CJe3891yB1A1mzMdqemkdg.jpeg">
+                            <div class="article-author-detail">
+                            <span class="author">
+                                Sheila Teo 
+                                <div class="about-author">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, officiis.
+                                </div>
+                            </span> in <span>Towards Data Science</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            How I Won Sinapore's GPT-4 Prompt Engineering Competition
+                        </div>
+                        <div>A deep dive into the strategies i learned for harnessing the power</div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Dec 26&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="div1">
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fill:30:30/1*N5kuThxTm4atljCuYIHRKQ.png">
+                            <div class="article-author-detail">
+                            <span class="author">
+                                Alexey Inkin 
+                                <div class="about-author">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, officiis.
+                                </div>
+                            </span> in <span>Dev Publicity</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            Advice to my younger self and you after 20 years in programming
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">dec 26&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">43 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="div1">
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fill:30:30/1*suDnvWWEvtqQCxA2NEHoRA.png">
+                            <div class="article-author-detail">
+                            <span class="author">
+                                Kelly Eden | Essayist | Writing Coach 
+                                <div class="about-author">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, officiis.
+                                </div>
+                            </span> in <span>An injustice</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            At 40 He Told Me i was Too Old , And I Agreed
+                        </div>
+                        <div>Are there age limits for certain things?</div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="div1">
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fill:30:30/1*kocS94BOAKNaJ6u5ZxE7lA.png">
+                            <div class="article-author-detail">
+                            <span class="author">
+                                Garrick McFardden 
+                                <div class="about-author">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, officiis.
+                                </div>
+                            </span> in <span>AfroSapiophile</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            I came To Bear Witness to a Racially Motivated
+                            Assassination: Part 1, Memphis, TN.
+                        </div>
+                        <div>White supremacy murdered Dr.Martin Luther King, Jr.</div>
+                        <div class="article-detail-3">
+                            <span class="article-date">sep 26&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">12 min read</span>
+                        </div>
+                    </div>
+                </div>
+                
+               
+              
+            </div>
+            <div class="articles-topic-container">
+                <div class="heading">
+                    <h4>Discover more what matters to you</h4>
+                </div>
+                <div class="btc">
+                    <div class="btn">
+                       <div class="a1">Programming</div>
+                    </div>
+                    <div class="btn">
+                        <div class="a1">Programming</div>
+                     </div>
+                     <div class="btn">
+                        <div class="a1">Programming</div>
+                     </div>
+                     <div class="btn">
+                        <div class="a1">Programming</div>
+                     </div>
+                     <div class="btn">
+                        <div class="a1">Programming</div>
+                     </div>
+                     <div class="btn">
+                        <div class="a1">Programming</div>
+                     </div>
+                     <div class="btn">
+                        <div class="a1">Programming</div>
+                     </div>
+                     <div class="btn">
+                        <div class="a1">Programming</div>
+                     </div>
+                     <div class="btn">
+                        <div class="a1">Programming</div>
+                     </div>
+            
+                </div> 
+                <div class="seeheading">
+                    See more topics
+                </div>  
+                <div class="separation-L"></div>
+                <div class="hlp1">
+                    <p class="hp">Help</p>
+                    <p class="hp">Status</p>
+                    <p class="hp">About</p>
+                    <P class="hp">Privacy</P>
+                    <P class="hp">Careers</P>
+                    <P class="hp">Terms</P>
+                </div>
+                </div>
+            </div>
+        </div>
+          
+        <!-- end main articles-->
+
+
+
+
+    </div>
+    <!-- CONTAINER STARTS  -------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+</body>
+
+</html>

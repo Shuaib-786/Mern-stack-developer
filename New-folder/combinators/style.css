@@ -1,0 +1,15 @@
+.parent .child{
+    background-color: black;
+    color:white;
+}
+
+.parent .child span{
+    background-color: red;
+    color: yellow;
+}
+ul>li{
+    color: orange;
+}
+li+li{
+    color: aqua;
+}
